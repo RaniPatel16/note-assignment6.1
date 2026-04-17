@@ -8,5 +8,5 @@ const {
 
 // CRUD routes
 router.post('/', createNote);
-
+router.post('/bulk', createBulkNotes)
 module.exports = router;
